@@ -267,6 +267,38 @@
 }
 
 .section-five .inner-box {
-  
+  padding: 20px 25px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.section-five .chat-icon {
+  margin-bottom: 20px;
+}
+.section-five img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-five .chat-desc {
+  color: var(--color-text2);
+  font-size: 16px;
+}
+
+.section-five .chat-info {
+  margin: 0;
+  padding: 0;
+}
+
+.section-five .chat-name {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-five .chat-pos {
+  font-size: 16px;
+  color: var(--color-two);
 }
 /* End Section-five */
