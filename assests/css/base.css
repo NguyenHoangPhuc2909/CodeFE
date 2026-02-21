@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
     --color-one: #8261ee;
@@ -6,9 +6,8 @@
     --color-text1: #1e1e1e;
     --color-text2: #777;
     --bg-color: #f2f2fe;
-    --font: 'Raleway', sans-serif;
+    --font: "Raleway", sans-serif;
 }
-
 
 body {
     color: var(--color-text1);
@@ -16,11 +15,18 @@ body {
     font-family: var(--font);
 }
 
-a, a:hover {
-    text-decoration: none;
-    
+a {
+    color: var(--color-text1);
 }
 
+a:hover {
+    color: var(--color-two);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
 
 .button {
     display: inline-block;
@@ -28,7 +34,45 @@ a, a:hover {
     border-radius: 45px;
     background-color: #fff;
     color: var(--color-text1);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     transition: all 0.3s ease 0s;
 }
+
+.btn-two {
+    background-color: var(--color-two);
+    color: #fff;
+}
+
+.btn-two:hover {
+    background-color: var(--color-one);
+}
+
+.btn-one {
+    background-color: var(--color-one);
+    color: #fff;
+}
+
+.btn-one:hover {
+    background-color: var(--color-two);
+    color: #fff;
+}
+
+/* Box-head */
+.box-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box-head .inner-title {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.box-head .inner-desc {
+    font-size: 14px;
+    margin: 10px auto 0;
+    color: var(--color-text2);
+    max-width: 520px;
+}
+/* End Box-head */
