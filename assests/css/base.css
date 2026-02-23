@@ -76,3 +76,8 @@ a:hover {
     max-width: 520px;
 }
 /* End Box-head */
+
+*::selection {
+    background-color: var(--color-two);
+    color: #fff;
+}
